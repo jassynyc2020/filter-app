@@ -1,10 +1,8 @@
 import "./filter.css";
 import React, { Component } from "react";
-// import { Route, Switch, Link } from "react-router-dom";
 import Konva from "konva";
 import { Stage, Layer, Image } from "react-konva";
 import useImage from "use-image";
-// import { faAlignCenter } from "@fortawesome/free-solid-svg-icons";
 
 const ImageViewer = (props) => {
   const [image] = useImage(props.fileUrl, "Anonimus");

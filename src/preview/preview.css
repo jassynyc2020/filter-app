@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  background-color: black;
+}
+
+.App {
+  text-align: center;
+  justify-content: center;
+}
+body,
+img {
+  width: 80%;
+}
+
+.button {
+  border: 2px solid yellow;
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+  border-radius: 15%;
+  background-color: fuchsia;
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+  margin-top: 75px;
+}
